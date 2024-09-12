@@ -38,8 +38,8 @@ elif user_input == 0 and computer_choice == 2 :
 elif user_input == 2 and computer_choice == 0 :
     print("you loss!")
 elif user_input > computer_choice :
-    print("you loss!")
-elif user_input < computer_choice :
     print("you win!")
+elif user_input < computer_choice :
+    print("you loss!")
 elif user_input == computer_choice :
     print("It's draw!")
